@@ -6,4 +6,4 @@ build-std-features = ["compiler-builtins-mem"]
 target = "x86_64-boot_me_maybe_os.json"
 
 [target.'cfg(target_os = "none")']
-runner = "echo"
+runner = "bootimage runner"
